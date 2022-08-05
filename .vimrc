@@ -5,7 +5,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'preservim/nerdtree'
 Plugin 'jiangmiao/auto-pairs'
-Plugin 'arcticicestudio/nord-vim'
 Plugin 'tpope/vim-surround'
 " ===============
 call vundle#end()            " required
@@ -86,5 +85,3 @@ set splitbelow
 set splitright
 set background=dark
 
-
-colorscheme nord
