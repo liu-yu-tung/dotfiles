@@ -3,11 +3,13 @@ filetype plugin indent on
 " PlugInstall
 " PlugUpdate
 call plug#begin() 
+  Plug 'LunarWatcher/auto-pairs'
   Plug 'preservim/nerdtree'
   Plug 'tpope/vim-fugitive'
   Plug 'tpope/vim-surround'
   Plug 'scrooloose/syntastic'
   Plug 'vim-airline/vim-airline'
+  Plug 'vim-airline/vim-airline-themes'
   Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
